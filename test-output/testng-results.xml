@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23652" started-at="2020-02-16T14:51:42Z" finished-at="2020-02-16T14:52:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23652" started-at="2020-02-16T14:51:42Z" finished-at="2020-02-16T14:52:05Z">
+      <class name="testCases.MortCalc">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:testCases.MortCalc@523884b2]" name="setupReport" is-config="true" duration-ms="439" started-at="2020-02-16T09:51:41Z" finished-at="2020-02-16T09:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:testCases.MortCalc@523884b2]" name="setupBrowser" is-config="true" duration-ms="14250" started-at="2020-02-16T09:51:42Z" finished-at="2020-02-16T09:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="mort1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.MortCalc@523884b2]" name="mort1" duration-ms="1286" started-at="2020-02-16T09:51:58Z" data-provider="MortData1" finished-at="2020-02-16T09:51:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2359834]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[254534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[346546]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mort1 -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testCases.MortCalc@523884b2]" name="appendReport" is-config="true" duration-ms="1344" started-at="2020-02-16T09:51:59Z" finished-at="2020-02-16T09:52:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mort1 status=SUCCESS method=MortCalc.mort1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.MortCalc@523884b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="mort2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.MortCalc@523884b2]" name="mort2" duration-ms="1520" started-at="2020-02-16T09:52:01Z" data-provider="MortData2" finished-at="2020-02-16T09:52:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nov]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1300]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[USDA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mort2 -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testCases.MortCalc@523884b2]" name="appendReport" is-config="true" duration-ms="746" started-at="2020-02-16T09:52:02Z" finished-at="2020-02-16T09:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mort2 status=SUCCESS method=MortCalc.mort2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.MortCalc@523884b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="mort3(java.lang.String, java.lang.String)[pri:0, instance:testCases.MortCalc@523884b2]" name="mort3" duration-ms="1707" started-at="2020-02-16T09:52:03Z" data-provider="MortData3" finished-at="2020-02-16T09:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Refi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good (620 - 719)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mort3 -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testCases.MortCalc@523884b2]" name="appendReport" is-config="true" duration-ms="573" started-at="2020-02-16T09:52:05Z" finished-at="2020-02-16T09:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mort3 status=SUCCESS method=MortCalc.mort3(java.lang.String, java.lang.String)[pri:0, instance:testCases.MortCalc@523884b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+      </class> <!-- testCases.MortCalc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
